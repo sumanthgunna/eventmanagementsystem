@@ -21,9 +21,9 @@ public class Sponsor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "sponsorid")
+    @Column(name = "id")
     private int sponsorId;
-    @Column(name = "sponsorname")
+    @Column(name = "name")
     private String sponsorName;
     @Column(name = "industry")
     private String industry;
